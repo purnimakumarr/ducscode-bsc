@@ -1,0 +1,5 @@
+1 ?- ['factorial'].
+true.
+
+2 ?- factorial(5, F).
+F = 120 .

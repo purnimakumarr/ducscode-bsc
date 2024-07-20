@@ -1,0 +1,25 @@
+.heading {
+  margin-bottom: 48px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.section-gallery {
+  margin-bottom: 48px;
+}
+
+.section-gallery div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  transition: all 0.4s;
+  overflow: hidden;
+}
+
+img:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,10 @@
+1 ?- ['palindrome'].
+true.
+
+2 ?- palindrome([1, 2, 2, 1]).
+Palindrome
+true.
+
+3 ?- palindrome([1, 2, 3, 4]).
+Not Palindrome
+true.

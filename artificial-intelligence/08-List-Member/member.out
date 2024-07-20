@@ -1,0 +1,7 @@
+1 ?- ['member'].            
+true.
+
+2 ?- memb(a, [a, b, c, d]).
+true.
+
+3 ?- memb(e, [a, b]).

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #ffdeeb;
+}
+
+.container {
+  width: 1200px;
+  margin: 56px auto;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+  justify-items: center;
+  background: linear-gradient(to bottom, #d6336c, #e64980);
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-family: sans-serif;
+  color: #333;
+}
+
+.form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.el,
+.hobbies {
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+  color: #333;
+}
+
+.hobbies {
+  height: 150px;
+}
+
+.submit-button {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #801f41;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.submit-button:hover {
+  background-color: #6b1a36;
+  cursor: pointer;
+}

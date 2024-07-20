@@ -1,0 +1,8 @@
+% AIM:- 
+
+% WRITE A PROLOG PROGRAM TO IMPLEMENT conc(L1, L2, L3) WHERE L2 IS THE LIST TO BE APPENDED WITH L1 TO GET THE RESULT IN THE LIST L3
+
+% CODE:-
+
+sumList([], 0).
+sumList([H|T], S):- sumList(T, S1), S is H + S1.

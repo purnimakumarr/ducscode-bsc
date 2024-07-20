@@ -1,0 +1,12 @@
+1 ?- ['max'].    
+true.
+
+2 ?- max(3, 6, M).
+M = 6.
+
+3 ?- max(6, 6, M). 
+Both are equal
+true.
+
+4 ?- max(6, 1, M). 
+M = 6.

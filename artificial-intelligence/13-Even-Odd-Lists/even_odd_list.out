@@ -1,0 +1,14 @@
+1 ?- ['even_odd_list'].
+true.
+
+2 ?- evenlength([1, 2, 3, 4]).
+true .
+
+3 ?- evenlength([1, 2, 3]).
+false.
+
+4 ?- oddlength([1, 2, 3]).
+true .
+
+5 ?- oddlength([1, 2, 3, 4]). 
+false.

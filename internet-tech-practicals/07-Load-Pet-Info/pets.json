@@ -1,0 +1,36 @@
+{
+  "pets": [
+    {
+      "name": "Leo",
+      "age": 4,
+      "weight": 10,
+      "type": "Dog",
+      "breed": "Poodle",
+      "hobbies": "Eating, chasing, walking"
+    },
+    {
+      "name": "Beau",
+      "age": 6,
+      "weight": 11,
+      "type": "Dog",
+      "breed": "Bulldog",
+      "hobbies": "Sleeping"
+    },
+    {
+      "name": "Zeus",
+      "age": 7,
+      "weight": 9,
+      "type": "Dog",
+      "breed": "Boxer",
+      "hobbies": "Running, chasing"
+    },
+    {
+      "name": "Arlo",
+      "age": 2,
+      "weight": 6,
+      "type": "Dog",
+      "breed": "Golden Retriever",
+      "hobbies": "Chasing"
+    }
+  ]
+}

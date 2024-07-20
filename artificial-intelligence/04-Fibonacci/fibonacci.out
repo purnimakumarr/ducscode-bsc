@@ -1,0 +1,5 @@
+1 ?- ['fibonacci'].
+true.
+
+2 ?- generate_fib(5, T).
+T = 8 .

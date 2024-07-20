@@ -1,0 +1,6 @@
+1 ?- ['sum'].
+true.
+
+2 ?- sum(3, 4).
+Sum is: 7
+true.

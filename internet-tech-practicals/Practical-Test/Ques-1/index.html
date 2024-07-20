@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ques &mdash; 1&colon; Book Form</title>
+
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="section-form container">
+        <h1 class="heading">Enter book information&colon;</h1>
+        <form class="form">
+          <div class="input-box">
+            <label for="book-name">Enter Book's Name&colon;</label>
+            <input
+              id="book-name"
+              class="book-name"
+              type="text"
+              placeholder="Looking for Alaska"
+              name="b-name"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="author-name">Enter Author Name&colon;</label>
+            <input
+              id="author-name"
+              class="author-name"
+              type="text"
+              placeholder="John Green"
+              name="a-name"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="book-price">Enter price (in rupees)&colon;</label>
+            <input
+              id="book-price"
+              class="book-price"
+              type="number"
+              placeholder="400"
+              name="price"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="publisher-name">Enter publisher&colon;</label>
+            <input
+              id="publisher-name"
+              class="publisher-name"
+              type="text"
+              placeholder="Dutton Juvenile"
+              name="publisher"
+              required
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="category">Select category&colon;</label>
+            <select id="category" name="category-name" required>
+              <option value="">Please choose one option:</option>
+              <option value="literary-fiction">Literary Fiction</option>
+              <option value="mystery">Mystery</option>
+              <option value="thriller">Thriller</option>
+              <option value="romance">Romance</option>
+              <option value="historical">Historical</option>
+              <option value="western">Western</option>
+              <option value="bildungsroman">Bildungsroman</option>
+              <option value="speculative-fiction">Speculative Fiction</option>
+              <option value="science-fiction">Science Fiction</option>
+              <option value="fantasy">Fantasy</option>
+              <option value="dystopian">Dystopian</option>
+              <option value="magical-realism">Magical Realism</option>
+              <option value="realist-literature">Realist Literarture</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <button class="btn">Submit</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy; build and designed by Purnima Kumar</p>
+      </footer>
+    </main>
+  </body>
+</html>

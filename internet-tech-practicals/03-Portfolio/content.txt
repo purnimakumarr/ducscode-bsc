@@ -1,0 +1,46 @@
+Purnima Kumar
+Self-learning Front End Developer
+School-taught C++ Programmer
+
+My Socials:
+Twitter
+Github
+Codepen
+LinkedIn
+
+Hello, I'm Purnima Kumar 😀
+I'm school-taught C++ Programmer & self-learning Front End Developer based in India. For now, I freelance and 
+build projects for fun. I build websites with a focus on responsive design, accessbility and pleasing aesthetics.
+I'm pursuing BSc (Hons) Computer Science from Delhi University.
+
+I constantly try to learn new technologies and concepts but here are the things I can do right now:
+HTML
+CSS
+C++
+DBMS
+JAVA
+PYTHON
+Read books
+Drink much tea/coffee
+
+More about me:
+I first started coding sometime in 2017 when I took Computer Science in 11th standard in school. The very 
+first language I learnt was C++ and from then, I was hooked. I knew I enjoyed figuring out the logic behind 
+applications but recently I became more interested in learning how to make it pretty for the users.
+
+I'm trying to achieve my beginner level developer status. I'm also looking for interships or freelance work under well guidance
+to gain work experience.
+
+Thank for reading 😊
+
+Contact 📧
+Tell me about your job opportunity or just say hi :)
+
+You can also write to me at:
+E-128, Double Storey Quarters,
+Idgah Road,
+Ahata Kidara,
+Sadar Bazar,
+Delhi-110006
+
+build & designed by Purnima Kumar
